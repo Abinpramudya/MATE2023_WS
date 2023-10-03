@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target async_web_server_cpp[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_server.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_connection.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request_parser.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_reply.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request_handler.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_connection.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_request_handler.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_message.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/hasan/ROS_MATE_2023_WS/devel/.private/async_web_server_cpp/lib/libasync_web_server_cpp.so[0m
+[100%] Built target async_web_server_cpp

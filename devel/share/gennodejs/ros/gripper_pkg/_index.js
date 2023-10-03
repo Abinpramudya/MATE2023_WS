@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/gripper_pkg/share/gennodejs/ros/gripper_pkg/_index.js

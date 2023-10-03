@@ -1,0 +1,8 @@
+prefix=/home/hasan/ROS_MATE_2023_WS/install
+
+Name: web_video_server
+Description: Description of web_video_server
+Version: 0.2.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/argadewanata/Documents/Banyubramanta/MATE_ROV_2023/ROS_MATE_2023_WS/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/argadewanata/Documents/Banyubramanta/MATE_ROV_2023/ROS_MATE_2023_WS/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/communicator_pkg/include/communicator_pkg/COM2RB.h

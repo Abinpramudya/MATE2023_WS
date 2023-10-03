@@ -1,0 +1,8 @@
+prefix=/home/hasan/ROS_MATE_2023_WS/install
+
+Name: thruster_package
+Description: Description of thruster_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

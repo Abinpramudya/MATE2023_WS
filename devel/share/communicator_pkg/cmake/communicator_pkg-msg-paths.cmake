@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/communicator_pkg/share/communicator_pkg/cmake/communicator_pkg-msg-paths.cmake

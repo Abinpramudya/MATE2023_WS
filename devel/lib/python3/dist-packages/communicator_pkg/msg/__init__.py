@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/communicator_pkg/lib/python3/dist-packages/communicator_pkg/msg/__init__.py

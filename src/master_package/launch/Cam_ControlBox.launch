@@ -1,0 +1,72 @@
+<launch>
+    <arg name="camera_device1" default="/dev/video0" />
+    <arg name="camera_device2" default="/dev/video1" />
+    <arg name="camera_device3" default="/dev/video2" />
+    <arg name="camera_device4" default="/dev/video4" />
+    <arg name="camera_device5" default="/dev/video5" />
+    <arg name="camera_device6" default="/dev/video6" />
+
+
+    <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen" respawn="true">
+        <param name="port" value="8080" />
+        <param name="ros_threads" value="8"/>
+    </node>
+
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+        <arg name="port" value="9090"/>
+    </include>
+
+    <node name="usb_cam1" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device1)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <remap from="image_raw" to="/camera1/image_raw"/>
+    </node>
+
+    <node name="usb_cam2" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device2)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <remap from="image_raw" to="/camera2/image_raw"/>
+    </node>
+
+    <node name="usb_cam3" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device3)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <remap from="image_raw" to="/camera3/image_raw"/>
+    </node>
+
+    <node name="usb_cam4" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device4)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <remap from="image_raw" to="/camera4/image_raw"/>
+    </node>
+
+    <node name="usb_cam5" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device5)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <remap from="image_raw" to="/camera5/image_raw"/>
+    </node>
+
+    <node name="usb_cam6" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device6)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <remap from="image_raw" to="/camera6/image_raw"/>
+    </node>
+
+    <!-- <include file = "$(find roswww)/launch/roswww.launch">
+        <arg name="port" value="9091"/>
+        <arg name="cached" value="false"/>
+    </include> -->
+
+</launch>

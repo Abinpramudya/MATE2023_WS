@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/joy_converter_pkg/share/gennodejs/ros/joy_converter_pkg/msg/joy_converter.js

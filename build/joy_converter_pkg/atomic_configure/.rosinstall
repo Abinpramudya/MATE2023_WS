@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hasan/ROS_MATE_2023_WS/devel/.private/joy_converter_pkg/setup.sh

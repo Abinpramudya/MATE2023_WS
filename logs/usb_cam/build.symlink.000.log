@@ -1,0 +1,5 @@
+Symlinking /home/hasan/ROS_MATE_2023_WS/devel/lib/libusb_cam.so
+Symlinking /home/hasan/ROS_MATE_2023_WS/devel/lib/usb_cam/usb_cam_node
+Symlinking /home/hasan/ROS_MATE_2023_WS/devel/lib/pkgconfig/usb_cam.pc
+Symlinking /home/hasan/ROS_MATE_2023_WS/devel/share/usb_cam/cmake/usb_camConfig.cmake
+Symlinking /home/hasan/ROS_MATE_2023_WS/devel/share/usb_cam/cmake/usb_camConfig-version.cmake

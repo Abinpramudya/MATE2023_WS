@@ -1,0 +1,8 @@
+prefix=/home/hasan/ROS_MATE_2023_WS/devel/.private/thruster_package
+
+Name: thruster_package
+Description: Description of thruster_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

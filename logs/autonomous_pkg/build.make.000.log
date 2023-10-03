@@ -1,0 +1,52 @@
+[35m[1mScanning dependencies of target _autonomous_pkg_generate_messages_check_deps_BoundingBox[0m
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_BoundingBox
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _autonomous_pkg_generate_messages_check_deps_BoundingBoxes[0m
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_BoundingBoxes
+[35m[1mScanning dependencies of target _autonomous_pkg_generate_messages_check_deps_kamera[0m
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_kamera
+[35m[1mScanning dependencies of target _autonomous_pkg_generate_messages_check_deps_decision_joy[0m
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_decision_joy
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autonomous_pkg_generate_messages_cpp[0m
+[  4%] [34m[1mGenerating C++ code from autonomous_pkg/BoundingBox.msg[0m
+[  9%] [34m[1mGenerating C++ code from autonomous_pkg/BoundingBoxes.msg[0m
+[ 13%] [34m[1mGenerating C++ code from autonomous_pkg/kamera.msg[0m
+[ 18%] [34m[1mGenerating C++ code from autonomous_pkg/decision_joy.msg[0m
+[ 18%] Built target autonomous_pkg_generate_messages_cpp
+[35m[1mScanning dependencies of target autonomous_pkg_generate_messages_lisp[0m
+[ 22%] [34m[1mGenerating Lisp code from autonomous_pkg/BoundingBox.msg[0m
+[ 27%] [34m[1mGenerating Lisp code from autonomous_pkg/BoundingBoxes.msg[0m
+[ 31%] [34m[1mGenerating Lisp code from autonomous_pkg/kamera.msg[0m
+[ 36%] [34m[1mGenerating Lisp code from autonomous_pkg/decision_joy.msg[0m
+[ 36%] Built target autonomous_pkg_generate_messages_lisp
+[35m[1mScanning dependencies of target autonomous_pkg_generate_messages_py[0m
+[ 40%] [34m[1mGenerating Python from MSG autonomous_pkg/BoundingBox[0m
+[ 45%] [34m[1mGenerating Python from MSG autonomous_pkg/BoundingBoxes[0m
+[ 50%] [34m[1mGenerating Python from MSG autonomous_pkg/kamera[0m
+[ 54%] [34m[1mGenerating Python from MSG autonomous_pkg/decision_joy[0m
+[ 59%] [34m[1mGenerating Python msg __init__.py for autonomous_pkg[0m
+[ 59%] Built target autonomous_pkg_generate_messages_py
+[35m[1mScanning dependencies of target autonomous_pkg_generate_messages_nodejs[0m
+[ 63%] [34m[1mGenerating Javascript code from autonomous_pkg/BoundingBox.msg[0m
+[ 68%] [34m[1mGenerating Javascript code from autonomous_pkg/BoundingBoxes.msg[0m
+[35m[1mScanning dependencies of target autonomous_pkg_generate_messages_eus[0m
+[ 72%] [34m[1mGenerating EusLisp code from autonomous_pkg/BoundingBox.msg[0m
+[ 77%] [34m[1mGenerating EusLisp code from autonomous_pkg/BoundingBoxes.msg[0m
+[ 81%] [34m[1mGenerating Javascript code from autonomous_pkg/kamera.msg[0m
+[ 86%] [34m[1mGenerating EusLisp code from autonomous_pkg/kamera.msg[0m
+[ 90%] [34m[1mGenerating Javascript code from autonomous_pkg/decision_joy.msg[0m
+[ 95%] [34m[1mGenerating EusLisp code from autonomous_pkg/decision_joy.msg[0m
+[100%] [34m[1mGenerating EusLisp manifest code for autonomous_pkg[0m
+[100%] Built target autonomous_pkg_generate_messages_nodejs
+[100%] Built target autonomous_pkg_generate_messages_eus
+[35m[1mScanning dependencies of target autonomous_pkg_generate_messages[0m
+[100%] Built target autonomous_pkg_generate_messages

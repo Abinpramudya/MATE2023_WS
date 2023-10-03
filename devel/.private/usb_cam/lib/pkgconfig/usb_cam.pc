@@ -1,0 +1,8 @@
+prefix=/home/hasan/ROS_MATE_2023_WS/devel/.private/usb_cam
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/hasan/ROS_MATE_2023_WS/src/usb_cam/include
+Libs: -L${prefix}/lib -lusb_cam
+Requires: 

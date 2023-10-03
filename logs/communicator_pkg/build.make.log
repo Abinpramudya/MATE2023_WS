@@ -1,0 +1,13 @@
+[  0%] Built target _communicator_pkg_generate_messages_check_deps_CB2COM
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _communicator_pkg_generate_messages_check_deps_COM2RB
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 25%] Built target communicator_pkg_generate_messages_py
+[ 50%] Built target communicator_pkg_generate_messages_eus
+[ 66%] Built target communicator_pkg_generate_messages_cpp
+[ 83%] Built target communicator_pkg_generate_messages_lisp
+[100%] Built target communicator_pkg_generate_messages_nodejs
+[100%] Built target communicator_pkg_generate_messages

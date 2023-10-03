@@ -1,0 +1,15 @@
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_BoundingBox
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_BoundingBoxes
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_kamera
+[  0%] Built target _autonomous_pkg_generate_messages_check_deps_decision_joy
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[ 18%] Built target autonomous_pkg_generate_messages_cpp
+[ 36%] Built target autonomous_pkg_generate_messages_lisp
+[ 59%] Built target autonomous_pkg_generate_messages_py
+[ 77%] Built target autonomous_pkg_generate_messages_nodejs
+[100%] Built target autonomous_pkg_generate_messages_eus
+[100%] Built target autonomous_pkg_generate_messages

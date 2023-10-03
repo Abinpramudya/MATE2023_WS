@@ -1,0 +1,6 @@
+devel_space: /home/hasan/ROS_MATE_2023_WS/devel
+install: false
+install_space: /home/hasan/ROS_MATE_2023_WS/install
+profile: default
+source_space: /home/hasan/ROS_MATE_2023_WS/src
+workspace: /home/hasan/ROS_MATE_2023_WS

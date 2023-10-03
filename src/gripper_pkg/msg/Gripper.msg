@@ -1,0 +1,1 @@
+int64 gripper_state

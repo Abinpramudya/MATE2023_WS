@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/autonomous_pkg/share/common-lisp/ros/autonomous_pkg/msg/autonomous_pkg-msg.asd

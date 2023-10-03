@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/master_package/share/master_package/cmake/master_package-msg-extras.cmake

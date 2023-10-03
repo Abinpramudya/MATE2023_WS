@@ -1,0 +1,8 @@
+prefix=/home/hasan/ROS_MATE_2023_WS/devel/.private/gripper_pkg
+
+Name: gripper_pkg
+Description: Description of gripper_pkg
+Version: 0.0.0
+Cflags: -I/home/hasan/ROS_MATE_2023_WS/devel/.private/gripper_pkg/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/joy_converter_pkg/share/joy_converter_pkg/cmake/joy_converter_pkgConfig.cmake

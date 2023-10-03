@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/communicator_pkg/share/roseus/ros/communicator_pkg/manifest.l

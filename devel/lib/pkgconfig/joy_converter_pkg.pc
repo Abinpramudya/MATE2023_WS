@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/joy_converter_pkg/lib/pkgconfig/joy_converter_pkg.pc

@@ -1,0 +1,27 @@
+string leftX
+string leftY
+string rightX
+string rightY
+string alter_right_x
+string alter_right_y
+string R1
+string R2
+string L1
+string L2
+string btn_triangle
+string btn_square
+string btn_circle
+string btn_cross
+string AutonomMode
+string PID_DepthMode
+string PID_StabilizeMode
+string throttle
+
+# Circle
+string Mission1_Mode 
+# Cross
+string Mission2_Mode
+# Start
+string Mission3_Status
+# Select
+string Mission4_Status 

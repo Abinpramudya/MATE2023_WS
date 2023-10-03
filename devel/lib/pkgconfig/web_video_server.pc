@@ -1,0 +1,1 @@
+/home/hasan/ROS_MATE_2023_WS/devel/.private/web_video_server/lib/pkgconfig/web_video_server.pc

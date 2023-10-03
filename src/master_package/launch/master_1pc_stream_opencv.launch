@@ -1,0 +1,84 @@
+<launch>
+    <!-- This Launch is for running the whole system for just 1 PC -->
+
+    <arg name="camera_device1" default="/dev/video0" />
+    <arg name="camera_device2" default="/dev/video1" />
+    <arg name="camera_device3" default="/dev/video2" />
+    <arg name="camera_device4" default="/dev/video3" />
+    <arg name="camera_device5" default="/dev/video4" />
+    <arg name="camera_device6" default="/dev/video5" />
+
+    <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen" respawn="true">
+        <param name="port" value="8080" />
+        <param name="ros_threads" value="8"/>
+    </node>
+
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+        <arg name="port" value="9090"/>
+    </include>
+
+    <!-- Change C615 webcam pixel format to YUYV -->
+    <node name="usb_cam1" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device1)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <param name="pixel_format" value="mjpeg" />
+        <remap from="image_raw" to="/camera1/image_raw"/>
+    </node>
+
+    <node name="usb_cam2" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device2)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <param name="pixel_format" value="mjpeg" />
+        <remap from="image_raw" to="/camera2/image_raw"/>
+    </node>
+
+    <node name="usb_cam3" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device3)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <param name="pixel_format" value="mjpeg" />
+        <remap from="image_raw" to="/camera3/image_raw"/>
+    </node>
+
+    <node name="usb_cam4" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device4)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <param name="pixel_format" value="mjpeg" />
+        <remap from="image_raw" to="/camera4/image_raw"/>
+    </node>
+
+    <node name="usb_cam5" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device5)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <param name="pixel_format" value="mjpeg" />
+        <remap from="image_raw" to="/camera5/image_raw"/>
+    </node>
+
+    <node name="usb_cam6" pkg="usb_cam" type="usb_cam_node" output="screen">
+        <param name="video_device" value="$(arg camera_device6)" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="framerate" value="30" />
+        <param name="pixel_format" value="mjpeg" />
+        <remap from="image_raw" to="/camera6/image_raw"/>
+    </node>
+    
+    <rosparam command="load" file="$(find master_package)/config/PID_const.yaml" />
+    
+    <node pkg="joy" type="joy_node" name="joy_node" output="screen" respawn="true" />
+
+    <node pkg="joy_converter_pkg" type="joy_converter.py" name="joy_converter_node" output="screen" respawn="true" />
+
+    <node pkg="master_package" type="master_node.py" name="master_node" output="screen" respawn="true" />
+
+    <node pkg="communicator_pkg" type="communicator.py" name="communicator_node" output="screen" respawn="true"/>
+</launch>
